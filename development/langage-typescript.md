@@ -6,10 +6,20 @@
 
 ## 🎓 J'ai compris et je peux expliquer
 
-- l'intéret de TypeScript dans l'IDE ❌ / ✔️
-- les types de bases ❌ / ✔️
-- comment et pourquoi étendre une interface ❌ / ✔️
-- les classes et les decorators ❌ / ✔️
+- l'intéret de TypeScript dans l'IDE ✔️
+  Suggère l'autocomplétion avec l'inférence, sécurise les retours de fonction et la variables déclarées.  
+  Averti des bugs (erreurs et warning) lors de la compilation.
+- les types de bases ✔️
+  number, string, boolean, undefined, null, void, Array, Object, any
+- comment et pourquoi étendre une interface ✔️
+  On étend une interface comme ceci:
+
+  `class Moto extends interface Vehicule{}`
+
+  La classe moto récupérera des propriétés communes à plusieurs véhicules par exemple : le nombre de roue, l'énergie etc.
+  Cela permet d'avoir un code plus concis, clair, ordonné.
+
+- les classes et les decorators ✔️
 
 ## 💻 J'utilise
 
@@ -32,6 +42,8 @@ Description :
 Description :
 
 ## 🌐 J'utilise des ressources
+
+https://www.typescriptlang.org/docs/handbook/intro.html
 
 ### Titre
 
